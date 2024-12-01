@@ -11,7 +11,6 @@ CREATE TABLE Guest (
   EmergencyContact VARCHAR(100)
 );
 
-
 CREATE TABLE GuestPreference (
   PreferenceID INT PRIMARY KEY AUTO_INCREMENT,
   GuestID INT,
